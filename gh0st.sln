@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client_Gh0stExe", "Gh0st_Client_Gh0st\gh0st.vcxproj", "{9E1084FD-4D50-69AF-9A91-0DD5154BF4AB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server_SvchostDll", "Gh0st_Server_Svchost\svchost.vcxproj", "{37D88FD9-9310-1EDA-209E-BC1D82BDFF01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Console|Win32 = Console|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E1084FD-4D50-69AF-9A91-0DD5154BF4AB}.Console|Win32.ActiveCfg = Template|Win32
+		{9E1084FD-4D50-69AF-9A91-0DD5154BF4AB}.Console|Win32.Build.0 = Template|Win32
+		{9E1084FD-4D50-69AF-9A91-0DD5154BF4AB}.Debug|Win32.ActiveCfg = Template|Win32
+		{9E1084FD-4D50-69AF-9A91-0DD5154BF4AB}.Debug|Win32.Build.0 = Template|Win32
+		{9E1084FD-4D50-69AF-9A91-0DD5154BF4AB}.Release|Win32.ActiveCfg = Release|Win32
+		{9E1084FD-4D50-69AF-9A91-0DD5154BF4AB}.Release|Win32.Build.0 = Release|Win32
+		{9E1084FD-4D50-69AF-9A91-0DD5154BF4AB}.Template|Win32.ActiveCfg = Template|Win32
+		{9E1084FD-4D50-69AF-9A91-0DD5154BF4AB}.Template|Win32.Build.0 = Template|Win32
+		{37D88FD9-9310-1EDA-209E-BC1D82BDFF01}.Console|Win32.ActiveCfg = Console|Win32
+		{37D88FD9-9310-1EDA-209E-BC1D82BDFF01}.Console|Win32.Build.0 = Console|Win32
+		{37D88FD9-9310-1EDA-209E-BC1D82BDFF01}.Debug|Win32.ActiveCfg = Template|Win32
+		{37D88FD9-9310-1EDA-209E-BC1D82BDFF01}.Debug|Win32.Build.0 = Template|Win32
+		{37D88FD9-9310-1EDA-209E-BC1D82BDFF01}.Release|Win32.ActiveCfg = Release|Win32
+		{37D88FD9-9310-1EDA-209E-BC1D82BDFF01}.Release|Win32.Build.0 = Release|Win32
+		{37D88FD9-9310-1EDA-209E-BC1D82BDFF01}.Template|Win32.ActiveCfg = Template|Win32
+		{37D88FD9-9310-1EDA-209E-BC1D82BDFF01}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Gh0stServer.cpp" />
+    <ClCompile Include="Gh0stServerDlg.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="COMMON.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gh0stServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gh0stServerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\Gh0stServer.ico">
+      <Filter>资源</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Gh0stServer.rc2">
+      <Filter>资源</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReadMe.txt">
+      <Filter>资源</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="资源">
+      <UniqueIdentifier>{6ff8872e-26e4-450b-a58d-903d86c4e65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{1c382a84-08e7-4a95-a378-81ba43286264}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Gh0stServer.rc">
+      <Filter>资源</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

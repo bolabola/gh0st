@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Gh0stServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ZHUYAN~1\AppData\Local\Temp\RSP7D83.tmp" with contents
+[
+ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Gh0stServer.pdb" /debug /machine:I386 /nodefaultlib:"mfc100d.lib" /nodefaultlib:"mfcs100d.lib" /out:"../BIN/Gh0stServer.exe" /pdbtype:sept 
+.\Debug\Gh0stServer.obj
+.\Debug\Gh0stServerDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Gh0stServer.res
+]
+Creating command line "link.exe @C:\Users\ZHUYAN~1\AppData\Local\Temp\RSP7D83.tmp"
+<h3>Output Window</h3>
+Linking...
+msvcrtd.lib(cinitexe.obj) : warning LNK4078: multiple ".CRT" sections found with different attributes (C0300040)
+LINK : fatal error LNK1104: cannot open file "windowscodecs.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+Gh0stServer.exe - 1 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
